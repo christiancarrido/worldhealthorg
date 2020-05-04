@@ -1,12 +1,20 @@
-.hrline{
-    margin-left: 140px;
-    margin-right: 120px;
-
+.col-2{
+    margin-right:50px;
 }
 
+.cc{
+    justify-content: left;
+}
+
+
+.hrline{
+    color: #D62281;
+}
+.allSections{
+    margin-right: 100px;
+    margin-left: 100px;
+}
 .topSection{
-    padding-right: 160px;
-    padding-left: 140px;
     padding-top: 50px;
 }
 
@@ -131,14 +139,12 @@ body {
 }
 
 .midSection {
-    padding-left: 100px;
-    padding-right: 100px;
+
 }
 
 .bottomSection{
-    padding-left: 160px;
-    padding-right: 160px;
-    padding-bottom: 100px;
+
+    margin-bottom: 100px;
 }
 .sectionTitle {
     color: rgb(255, 255, 255);
@@ -148,10 +154,7 @@ body {
     margin: 10px 0;
 }
 
-.col-7 {
-    padding-left: 60px;
-    padding-right: 60px;
-}
+
 
 
 

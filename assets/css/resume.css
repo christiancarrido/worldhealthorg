@@ -7,7 +7,7 @@
 .topSection{
     padding-right: 160px;
     padding-left: 140px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .logo{
@@ -68,8 +68,6 @@
 
 .navbar-brand {
     display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
     line-height: inherit;
@@ -79,6 +77,8 @@
 
 .top-left {
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2px;
+    padding-top:2px;
 }
 
 .navbarpages {
@@ -91,7 +91,10 @@
 body {
     background-color: black;
 }
-
+.form-inline{
+    margin-left:800px;
+    margin-top:100px;
+}
 .customContainer> {
     background-color: white;
     margin-top: 100px;

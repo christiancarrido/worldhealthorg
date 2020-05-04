@@ -1,0 +1,161 @@
+.hrline{
+    margin-left: 140px;
+    margin-right: 120px;
+
+}
+
+.topSection{
+    padding-right: 160px;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+.default {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.vline {
+    border-left: white;
+    border-left-color: #D62281;
+    border-left-width: 5px;
+    border-left-style: solid;
+    padding-left: 10px;
+}
+
+.progress-bar {
+    background-color: #D62281;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+}
+
+.personalSkills {
+    background-color: #D62281;
+    padding: 5px 5px;
+    margin: 3px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.magentaBox{
+    border-style: solid;
+    border-width: 2px;
+    border-color:#D62281 ;
+    padding: 20px;
+}
+ 
+.education {
+    margin-top: 50px;
+}
+
+.experience {
+    margin-top: 50px;
+}
+
+.customNavBg {
+    background-color: #D62281 !important;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: whitesmoke;
+}
+
+.top-left {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarpages {
+    color: rgb(255, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+body {
+    background-color: black;
+}
+
+.customContainer> {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pfpimage {
+
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transform: translateY(-75px);
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.avatarcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.midSection {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bottomSection{
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 100px;
+}
+.sectionTitle {
+    color: rgb(255, 255, 255);
+}
+
+.sectionTitle>div {
+    margin: 10px 0;
+}
+
+.col-7 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+/*MEDIA QUERIES*/
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .experience p.description {
+        display: none;
+    }
+}

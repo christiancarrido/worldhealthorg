@@ -255,10 +255,4 @@
     justify-content: center
 }
 
-@media (min-width: 768px) 
-.navbar-expand-md .navbar-toggler {
-    display: none;
-}
-.navbar-expand-md .navbar-toggler{
-    display: none;
-}
+ 
